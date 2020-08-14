@@ -142,8 +142,8 @@ button:hover{
     /*Header Styles*/
     
     nav span{
-        /* FIX line height of span */
-    }
+        border-left:2px solid #626262;
+    } /*shorten height?*/
 
     nav a{
         padding: 5% 10%;
@@ -156,13 +156,20 @@ button:hover{
 
     /*Title Section Style*/
     h1{
-        font-size: 4rem;
+        font-size: 3rem;
+        line-height:1.2;
     }
     
     .title-container div{
         height:40vh;
-    } /* FIX LATER TO SHOW WHOLE PIC */
+        width: 90%;
+        background-size: 200%;
+    }
     
+    button{
+        font-size:1.2rem;
+    }
+
     /*Artists Section Styles*/
     .artists-container{
         flex-direction:column;
@@ -170,10 +177,7 @@ button:hover{
     }
     
     .artist{
-        /* display:flex;
-        flex-direction:column;
-        justify-content: center; */
-        width: 100%; /* FIX CENTERING LATER*/
+        width: 100%; /* Improve centering?*/
         margin: 5% 0; 
     }
 
@@ -184,5 +188,5 @@ button:hover{
     .bio{
         line-height: 1;
     }
-    
+
 }
