@@ -184,37 +184,5 @@ button:hover{
     .bio{
         line-height: 1;
     }
-
-    /*
-    /*Main Section-Intro*/
-    /* #intro-subsect{
-        flex-direction:column;
-    }
-    #main-pic{
-        width:90%;
-    }
-    #intro-txt{
-        width: 90%;
-        display:flex;
-        flex-direction: column;
-        text-align: center;
-        margin: 0 5% 5% 5%; 
-        font-size: 1.8rem;
-        line-height:2; 
-    }
-    #intro-txt p{
-        line-height: 1.5;
-    } */
-
-    /*Main Section-Pics*/
-    /* .profile-line1, .profile-line2 {
-        flex-wrap: wrap;
-        margin:0;
-    }
-    .catOne,.catTwo,.catThree,.catFour,.catFive,.catSix,.catSeven,.catEight{
-        max-width: 40%;
-        display:flex;
-        flex-direction:column;
-    } */
     
-};
+}
