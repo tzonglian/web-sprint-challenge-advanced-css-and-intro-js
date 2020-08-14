@@ -134,3 +134,67 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+
+/* Styles for phone at 500px */
+@media (max-width: 500px){
+
+    /*Header Styles*/
+    
+    nav span{
+        /* FIX border-height:20%; */
+    }
+
+    nav a{
+        padding: 5% 10%;
+        text-align:center;
+    }
+    
+    a{
+        font-size:inherit;
+    }
+
+    /*Title Section Style*/
+    h1{
+        font-size: 4rem;
+    }
+    
+    .title-container div{
+        height:40vh;
+    } /* FIX LATER */
+    
+    
+    
+    /*
+    /*Main Section-Intro*/
+    /* #intro-subsect{
+        flex-direction:column;
+    }
+    #main-pic{
+        width:90%;
+    }
+    #intro-txt{
+        width: 90%;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 5% 5% 5%; 
+        font-size: 1.8rem;
+        line-height:2; 
+    }
+    #intro-txt p{
+        line-height: 1.5;
+    } */
+
+    /*Main Section-Pics*/
+    /* .profile-line1, .profile-line2 {
+        flex-wrap: wrap;
+        margin:0;
+    }
+    .catOne,.catTwo,.catThree,.catFour,.catFive,.catSix,.catSeven,.catEight{
+        max-width: 40%;
+        display:flex;
+        flex-direction:column;
+    } */
+    
+};
