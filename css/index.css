@@ -142,7 +142,7 @@ button:hover{
     /*Header Styles*/
     
     nav span{
-        /* FIX border-height:20%; */
+        /* FIX line height of span */
     }
 
     nav a{
@@ -161,10 +161,30 @@ button:hover{
     
     .title-container div{
         height:40vh;
-    } /* FIX LATER */
+    } /* FIX LATER TO SHOW WHOLE PIC */
     
+    /*Artists Section Styles*/
+    .artists-container{
+        flex-direction:column;
+        justify-content: center;
+    }
     
-    
+    .artist{
+        /* display:flex;
+        flex-direction:column;
+        justify-content: center; */
+        width: 100%; /* FIX CENTERING LATER*/
+        margin: 5% 0; 
+    }
+
+    .artist a{
+        font-size: 2rem;
+    }
+
+    .bio{
+        line-height: 1;
+    }
+
     /*
     /*Main Section-Intro*/
     /* #intro-subsect{
